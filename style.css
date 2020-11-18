@@ -1,0 +1,102 @@
+html {
+    background-image: url('fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+}
+
+
+body {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input, select, textarea {
+    border: 1;
+    border-radius: 5px;
+}
+
+.shape-form {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+    background-color: #0173CF;
+    width: 60vw;
+    display: block; 
+    opacity: 0.8;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 25px;
+}
+
+.inline-input {
+    padding: 0.375rem 0.75rem 0.25rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    display: block;
+    margin: 0 auto;
+    min-width: 33vw;
+    text-align: center;
+}
+
+.inline-radio div{
+    display: block;
+    clear: both;
+    opacity: 0.9;
+}
+.inline-radio label {
+    display: block;
+    padding-left: 20px;
+    text-align: left;
+}
+.inline-radio input {
+    float: left;
+    width: 20px;
+    margin-left: auto;
+}
+
+.input-text {
+    min-height: 110px;
+    width: 90%;
+}
+
+.compact {
+    line-height: .4;
+}
+.expand {
+    line-height: 1.8;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    min-height: 5vh;
+    width: 30%;
+}
+.submit-button {
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+.submit-button:hover {
+    background-position: right center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.submit-styling {
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+    color: white;
+    text-shadow: #495057;
+    font-weight: bolder;
+    font-size: larger;
+}

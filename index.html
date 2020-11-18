@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<main id="main">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<head><title>Survey Page</title></head>
+
+<body>
+
+<div id="survey-info" class="compact">
+    <h1 id="title">Programming Survey.</h1>
+    <p id="description">Why do you want to learn to write code</p>
+</div>
+
+
+<form id="survey-form" class="shape-form">
+    <div class="expand">
+        <label id="name-label" for="name">Name</label>
+        <input class="inline-input" type="text" name="name" id="name" placeholder="Enter your name" required />
+    </div>
+
+    <div class="expand">
+        <label id="email-label" for="email">Email</label>
+        <input class="inline-input" type="email" name="email" id="email" placeholder="Enter your Email" required />
+    </div>
+
+    <div class="expand">
+        <label id="number-label" for="number">How many years have you been coding?</label>
+        <input class="inline-input" type="number" min="0" max="100" name="number" id="number" placeholder="Choose between 0-100" />
+    </div>
+
+    <div class="compact">
+        <p>How would you describe your programming abilities?</p>
+        <select id="dropdown" name="role" class="inline-input" required>
+            <option disabled selected value>Select current skill level</option>
+            <option value="one">Non-existent</option>
+            <option value="one">Rookie</option>
+            <option value="one">Good, but with a ways to go</option>
+            <option value="one">Basically a code god</option>
+        </select>
+    </div>
+
+    <div class="inline-radio">
+        <p>What are you learning to code for?</p>
+        <label>
+            <input name="why-code" value="work" type="radio" checked
+            />For Work</label>
+        <label>
+            <input name="why-code" value="personal" type="radio"
+        />Personal Projects</label>
+        <label>
+            <input name="why-code" value="because" type="radio" 
+        />Because you just like learning new stuff</label>
+    </div>
+
+    <div class="inline-radio">
+        <p>What sort of code interests you the most?
+            <span>(Check all that apply)</span>
+        </p>
+        <label>
+            <input name="likes" value="undecided-exploring" type="checkbox"
+        />Undecided/Still exploring</label>
+        <label>
+            <input name="likes" value="Front-end" type="checkbox"
+        />Front-end</label> 
+        <label>
+            <input name="likes" value="back-end" type="checkbox"
+        />Back-end</label>
+        <label>
+            <input name="likes" value="mobile-development" type="checkbox"
+        />Mobile Development</label>      
+    </div>
+
+    <div class="shape-form">
+        <p>How did you get into coding? (optional)</p>
+        <textarea id="story" name="story" class="input-text" placeholder="Enter your story here..."></textarea>
+    </div>
+
+    <div class="submit-container">
+        <button type="submit" id="submit" class="submit-button submit-styling">
+            Submit
+        </button>
+    </div>
+
+</form>
+
+</body>
+
+
+</main>
+</html>
